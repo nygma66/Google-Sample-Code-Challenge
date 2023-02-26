@@ -29,3 +29,9 @@ class Video:
     def tags(self) -> Sequence[str]:
         """Returns the list of tags of a video."""
         return self._tags
+    
+    @property
+    def info_str(self) -> str:
+        temp_str = "{title} ({id}) [{tags}]".format(title=self._title, id=self._video_id, tags=' '.join(list(self._tags)))
+        return temp_str
+
