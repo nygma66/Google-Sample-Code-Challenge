@@ -1,4 +1,4 @@
-# Google-Sample-Code-Challenge
+# Youtube-Code-Challenge
 
 # Youtube Challenge - Python
 The Python Youtube Challenge uses Python3. 
